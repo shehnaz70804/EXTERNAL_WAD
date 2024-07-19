@@ -1,0 +1,49 @@
+.catalogue {
+    padding: 20px;
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px; /* spacing between cards */
+  }
+  
+  .product-card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-details {
+    flex: 1;
+  }
+  
+  .product-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .product-details p {
+    margin-bottom: 10px;
+  }
+  
+  .product-details button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .product-details button:hover {
+    background-color: #0056b3;
+  }
+  
